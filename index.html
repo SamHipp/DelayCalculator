@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <h1>Delay Calculator</h1>
+    <h2>Use the calculator below to calculate delay times in seconds for a given BPM. 
+        You can tap the button below to input a BPM as well.</h2>
+        <input type="text" id="bpm" placeholder="BPM">
+        <button id="submit">Submit</button><br>
+    <button class="tapBtn" id="tapBtn">Tap BPM</button>
+    <table class="table">
+        <tr>
+            <th><p class="calcBtn"><img src="img/WholeB.svg" alt="Whole Note"></p></th>
+            <th><p class="1Output">&nbsp;</p></th>
+            <th><p class="calcBtn"><img src="img/WholeDB.svg" alt="Dotted Whole Note"></p></th>
+            <th><p class="1-5Output">&nbsp;</p></th>
+        </tr>
+        <tr>
+            <th><p class="calcBtn"><img src="img/HalfB.svg" alt="Half Note"></p></th>
+            <th><p class="HOutput">&nbsp;</p></th>
+            <th><p class="calcBtn"><img src="img/HalfDB.svg" alt="Dotted Half Note"></p></th>
+            <th><p class="H-5Output">&nbsp;</p></th>
+        </tr>
+        <tr>
+            <th><p class="calcBtn"><img src="img/QuarterB.svg" alt="Quarter Note"></p></th>
+            <th><p class="QOutput">&nbsp;</p></th>
+            <th><p class="calcBtn"><img src="img/QuarterDB.svg" alt="Dotted Quarter Note"></p></th>
+            <th><p class="Q-5Output">&nbsp;</p></th>
+        </tr>
+        <tr>
+            <th><p class="calcBtn"><img src="img/8thB.svg" alt="8th Note"></p></th>
+            <th><p class="EOutput">&nbsp;</p></th>
+            <th><p class="calcBtn"><img src="img/8thDB.svg" alt="Dotted 8th Note"></p></th>
+            <th><p class="E-5Output">&nbsp;</p></th>
+        </tr>
+        <tr>
+            <th><p class="calcBtn"><img src="img/16thB.svg" alt="16th Note"></p></th>
+            <th><p class="SOutput">&nbsp;</p></th>
+            <th><p class="calcBtn"><img src="img/16thDB.svg" alt="Dotted 16th Note"></p></th>
+            <th><p class="S-5Output">&nbsp;</p></th>
+        </tr>
+    </table>
+    <script src="jquery.js"></script>
+    <script src="index.js"></script>
+</body>
+</html>
+

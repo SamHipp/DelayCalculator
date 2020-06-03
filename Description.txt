@@ -1,0 +1,1 @@
+A delay calculator built using jQuery in JavaScript. Calculates delay times in seconds for a given BPM, and has automatic BPM detection built in via a "tap" button.

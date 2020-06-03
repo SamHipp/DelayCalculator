@@ -1,0 +1,71 @@
+body {
+    text-align: center;
+    font-family: Arial, Helvetica, sans-serif;
+    background: #F3F7FF;
+}
+
+h1 {
+    font-size: 3rem;
+    font-family: Arial, Helvetica, sans-serif;
+    text-align: center;
+    font-weight: 400;
+}
+
+h2 {
+    font-size: 1.5rem;
+    font-family: Arial, Helvetica, sans-serif;
+    text-align: center;
+    font-weight: 400;
+    margin-left: 25%;
+    margin-right: 25%;
+    
+}
+
+button {
+    background: #6B0000;
+    color: white;
+    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+    border-radius: 10px;
+    
+}
+
+#bpm {
+    padding-top: 1rem;
+    padding-bottom: 1rem;
+    margin-bottom: 2rem;
+    text-align: center;
+    width: 10rem;
+    box-shadow: inset 0px -4px -4px rgba(0, 0, 0, 0.25);
+    
+}
+
+#submit {
+    padding-top: 1rem;
+    padding-bottom: 1rem;
+    width: 5rem;
+    font-size: 1rem;
+}
+.tapBtn {
+    width: 15rem;
+    padding: 1rem;
+    margin-bottom: 2rem;
+    font-size: 1.5rem;
+}
+
+table {
+    position: relative;
+    margin: auto;
+    border-collapse: collapse;
+    text-align: right;
+    min-width: 3rem;
+}
+
+th {
+    padding: 1rem;
+    font-size: 1rem;
+}
+
+.calcBtn {
+    display: flex;
+    align-items: center;
+}
